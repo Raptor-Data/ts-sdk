@@ -3,7 +3,7 @@
 
   # Raptor Data TypeScript SDK
 
-  **v1.0.0**
+  **v1.0.1**
 
   ### Turn any document into version-controlled, AI-ready chunks in one API call—saving you **90% on embedding costs**.
 
