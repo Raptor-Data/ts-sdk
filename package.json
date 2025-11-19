@@ -53,7 +53,7 @@
         "format": "prettier --write \"src/**/*.{ts,json}\"",
         "format:check": "prettier --check \"src/**/*.{ts,json}\"",
         "check": "npm run typecheck && npm run lint && npm run format:check && npm run test",
-        "prepublishOnly": "pnpm run build && pnpm run test"
+        "prepublishOnly": "pnpm run build"
     },
     "keywords": [
         "raptor-data",

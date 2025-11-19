@@ -1,21 +1,21 @@
 <div align="center">
   <img src="assets/logo.png" alt="Raptor" width="200" />
 
-  # Raptor TypeScript SDK
+  # Raptor Data TypeScript SDK
 
   **v1.0.0**
 
   ### Turn any document into version-controlled, AI-ready chunks in one API call—saving you **90% on embedding costs**.
 
   [![npm version](https://img.shields.io/npm/v/@raptor-data/ts-sdk?color=blue)](https://www.npmjs.com/package/@raptor-data/ts-sdk)
-  [![Bundle Size](https://img.shields.io/badge/bundle%20size-72.1%20kB-brightgreen)](https://bundlephobia.com/package/@raptor-data/ts-sdk)
+  [![Bundle Size](https://img.shields.io/badge/bundle%20size-73.8%20kB-brightgreen)](https://bundlephobia.com/package/@raptor-data/ts-sdk)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue?logo=typescript)](https://www.typescriptlang.org/)
   [![License](https://img.shields.io/npm/l/@raptor-data/ts-sdk)](https://github.com/raptor-data/ts-sdk/blob/main/LICENSE)
   [![Downloads](https://img.shields.io/npm/dm/@raptor-data/ts-sdk)](https://www.npmjs.com/package/@raptor-data/ts-sdk)
 
   **The Stripe of RAG - Simple, powerful document processing with built-in version control and cost optimization.**
 
-  [Get Started](#quick-start) • [Documentation](https://docs.raptordata.dev) • [Discord](https://discord.gg/raptor) • [API Reference](#api-reference)
+  [Get Started](#quick-start) • [Documentation](https://docs.raptordata.dev) • [Discord](https://discord.com/channels/1437771913228324866/) • [API Reference](#api-reference)
 </div>
 
 ---
