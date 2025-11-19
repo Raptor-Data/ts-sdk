@@ -15,7 +15,7 @@
 
   **The Stripe of RAG - Simple, powerful document processing with built-in version control and cost optimization.**
 
-  [Get Started](#quick-start) • [Documentation](https://docs.raptordata.dev) • [Discord](https://discord.com/channels/1437771913228324866/) • [API Reference](#api-reference)
+  [Get Started](#quick-start) • [Documentation](https://docs.raptordata.dev) • [Discord](https://discord.gg/Q33RsJFn) • [API Reference](#api-reference)
 </div>
 
 ---
@@ -37,6 +37,31 @@ Contract v1 → 1000 chunks → $10 to embed
 Contract v2 → 950 chunks reused, 50 new → $0.50 to embed
 Savings: 95% cost reduction
 ```
+
+## Get API Key
+
+Sign up at [raptordata.dev](https://raptordata.dev) to get your free API key.
+
+**Free tier includes:**
+- 1,000 pages/month
+- All document types (PDF, DOCX)
+- Semantic and recursive chunking
+- Version control and duplicate detection
+- Auto-linking
+- Smart deduplication
+
+## Benchmarks
+
+Real-world performance with auto-linking and deduplication:
+
+| Scenario | Traditional RAG | Raptor | Savings |
+|----------|----------------|--------|---------|
+| Contract v1 → v2 (95% unchanged) | $10.00 | $0.50 | **95%** |
+| Policy update (80% unchanged) | $15.00 | $3.00 | **80%** |
+| Duplicate upload | $10.00 | $0.00 | **100%** |
+| Re-process with different config | $10.00 | $0.00 | **100%** |
+
+*Based on typical embedding costs ($1/1M tokens) and document sizes (10k tokens/doc)*
 
 ## Installation
 
@@ -81,6 +106,7 @@ console.log(`First chunk: ${result.chunks[0]}`);
 ### Version Control
 - **Git-like lineage** - Track document evolution
 - **Chunk-level diffs** - See exactly what changed
+- **Sentence level version control** - Track changes at the sentence level
 - **Version labels** - Tag versions ("v2.0", "final", "draft")
 - **Revert capability** - Roll back to previous versions
 
@@ -655,7 +681,7 @@ When using the SDK in a browser environment, you'll see a security warning:
 [RAPTOR SDK SECURITY WARNING] You are using the Raptor SDK in a browser environment.
 Your API key will be visible in the browser DevTools and network requests.
 For production applications, consider using a backend proxy to protect your API key.
-See: https://docs.raptordata.dev/security
+See: https://docs.raptordata.dev/authentication#security-best-practices
 ```
 
 This is intentional to remind you to protect your API keys in production.
@@ -715,31 +741,6 @@ try {
 }
 ```
 
-## Get API Key
-
-Sign up at [raptordata.dev](https://raptordata.dev) to get your free API key.
-
-**Free tier includes:**
-- 10,000 pages/month
-- All document types (PDF, DOCX, images, etc.)
-- Semantic chunking
-- Version control and duplicate detection
-- Auto-linking
-- Smart deduplication
-
-## Benchmarks
-
-Real-world performance with auto-linking and deduplication:
-
-| Scenario | Traditional RAG | Raptor | Savings |
-|----------|----------------|--------|---------|
-| Contract v1 → v2 (95% unchanged) | $10.00 | $0.50 | **95%** |
-| Policy update (80% unchanged) | $15.00 | $3.00 | **80%** |
-| Duplicate upload | $10.00 | $0.00 | **100%** |
-| Re-process with different config | $10.00 | $0.00 | **100%** |
-
-*Based on typical embedding costs ($1/1M tokens) and document sizes (10k tokens/doc)*
-
 ## Documentation
 
 Full documentation: [docs.raptordata.dev](https://docs.raptordata.dev)
@@ -747,8 +748,8 @@ Full documentation: [docs.raptordata.dev](https://docs.raptordata.dev)
 ## Support
 
 - **GitHub**: [github.com/raptor-data/ts-sdk](https://github.com/raptor-data/ts-sdk)
-- **Discord**: [discord.gg/raptor](https://discord.gg/raptor)
-- **Email**: info@raptordata.dev
+- **Discord**: [discord.gg/Q33RsJFn](https://discord.gg/Q33RsJFn)
+- **Email**: support@raptordata.dev
 - **Docs**: [docs.raptordata.dev](https://docs.raptordata.dev)
 
 ## License
@@ -758,7 +759,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 ---
 
 <div align="center">
-  Built by the Raptor team
+  Built by the Raptor Data team
 
-  **Stop wasting money re-embedding the same content. Start using Raptor.**
+  **Stop wasting money re-embedding the same content. Start using Raptor Data.**
 </div>
